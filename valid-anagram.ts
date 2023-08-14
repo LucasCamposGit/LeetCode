@@ -10,6 +10,8 @@ function reorderString(str: string): string {
 
 var isAnagram = (s: string, t: string): boolean => {
     const isEqual = s.length === t.length;
+    if (!isEqual) return false;
+
     return reorderString(s) === reorderString(t)
 }
 
