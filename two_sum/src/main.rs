@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 pub fn two_sum(nums: &[i32], target: i32) -> Vec<i32> {
     let mut numbers_hash: HashMap<i32, i32> = HashMap::new();
-
+  
     for (i, num) in nums.iter().enumerate() {
         let difference = target - *num;
         if let Some(&j) = numbers_hash.get(&difference) {
