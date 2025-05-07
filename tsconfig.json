@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "isolatedModules": false,
+        "target": "es2015"
+    }
+
+}
