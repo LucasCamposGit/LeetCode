@@ -3,7 +3,7 @@ fn find_max_average(nums: Vec<i32>, k: i32) -> f64 {
     let k = k as usize;
 
     for i in 0..k {
-        window_sum = window_sum + nums[i] as f64; 
+        window_sum = window_sum + nums[i] as f64;
     }
 
     let mut max_sum: f64 = window_sum;
